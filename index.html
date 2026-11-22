@@ -3,70 +3,163 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="theme-color" content="#101014">
-<meta name="description" content="استودیو سامان؛ عکاسی، فیلم‌برداری، تدوین و خدمات تبلیغاتی در گلبهار">
+<meta name="theme-color" content="#0b0b0f">
+<meta name="description" content="استودیو سامان در گلبهار؛ چاپ عکس موبایل، فیلم‌برداری و تدوین مجالس، ساخت تیزرهای تبلیغاتی، قاب و شاسی و طراحی تبلیغات محیطی.">
+<meta property="og:title" content="استودیو سامان | SAMAN STUDIO">
+<meta property="og:description" content="تصویرهایی برای ماندن؛ خدمات عکاسی، ویدئو و تبلیغات در گلبهار">
+<meta property="og:type" content="website">
 <title>استودیو سامان | SAMAN STUDIO</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#101014;--panel:#19181d;--gold:#c9a45e;--gold2:#e6c783;--purple:#54218b;--white:#f7f4ee;--muted:#bcb7b0}
-*{box-sizing:border-box}body{margin:0;background:radial-gradient(circle at 85% 5%,#2b173d 0,transparent 28%),linear-gradient(145deg,#0c0c10,#17151b 58%,#0b0b0e);color:var(--white);font-family:"Vazirmatn",Tahoma,sans-serif;min-height:100vh}
-.wrap{width:min(100% - 28px,760px);margin:28px auto 48px}.card{background:linear-gradient(155deg,rgba(35,31,38,.97),rgba(13,13,17,.98));border:1px solid rgba(201,164,94,.55);border-radius:28px;overflow:hidden;box-shadow:0 24px 70px #0009}
-.hero{text-align:center;padding:32px 22px 24px;background:linear-gradient(130deg,#1d1724,#111115 65%);border-bottom:1px solid #6c5735}
-.logo{width:150px;height:150px;object-fit:cover;border-radius:50%;border:2px solid var(--gold);box-shadow:0 0 32px #9b6c2c55}
-h1{font-size:clamp(27px,6vw,42px);margin:14px 0 2px;font-weight:800;letter-spacing:-1px}.latin{font-family:Montserrat,sans-serif;direction:ltr;letter-spacing:5px;color:var(--gold2);font-size:16px;font-weight:600}
-.tag{color:var(--muted);font-size:12px;letter-spacing:1.5px;direction:ltr;margin-top:12px}
-.slogan{color:var(--gold2);font-size:19px;margin:18px 0 0;font-weight:600}
-main{padding:24px}.section-title{color:var(--gold2);font-size:18px;font-weight:700;margin:0 0 14px}
-.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:10px;margin-bottom:24px}
-.service{border:1px solid #4e412d;background:#201d22;border-radius:14px;padding:13px 14px;font-size:14px}
-.actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:18px 0 24px}
-a.btn,button.btn{font:600 14px "Vazirmatn",sans-serif;text-decoration:none;text-align:center;border:1px solid var(--gold);border-radius:13px;padding:13px 10px;color:var(--white);background:#211d22;cursor:pointer}
-a.primary,button.primary{background:linear-gradient(100deg,#b98b42,#e5c47d);color:#17130d;border:0}
-.details{display:grid;gap:12px}.detail{display:flex;gap:12px;align-items:flex-start;background:#17161b;border:1px solid #393039;border-radius:13px;padding:13px}
-.detail b{display:block;color:var(--gold2);font-size:12px;margin-bottom:3px}.detail span,.detail a{font-size:14px;color:var(--white);text-decoration:none;overflow-wrap:anywhere}
-.footer{text-align:center;color:#a8a19a;font-size:11px;padding:0 20px 22px}
-@media(max-width:420px){.actions{grid-template-columns:1fr}.hero{padding-top:25px}main{padding:18px}.logo{width:130px;height:130px}}
+:root{--bg:#0b0b0f;--panel:#15141a;--panel2:#1c1920;--gold:#c9a45e;--gold2:#f0d69b;--purple:#54218b;--white:#faf7f0;--muted:#b9b1a5;--line:rgba(201,164,94,.24)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:"Vazirmatn",Tahoma,sans-serif;line-height:1.8}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at 82% 0%,rgba(84,33,139,.23),transparent 32%),radial-gradient(ellipse at 0% 55%,rgba(201,164,94,.07),transparent 30%);z-index:-1}
+a{color:inherit;text-decoration:none}.shell{width:min(100% - 28px,850px);margin:24px auto 50px}
+.topline{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:11px;padding:0 8px 14px}.topline b{color:var(--gold2);font-weight:600}
+.card{border:1px solid rgba(201,164,94,.4);border-radius:30px;overflow:hidden;background:linear-gradient(150deg,rgba(29,26,33,.98),rgba(11,11,15,.99) 58%);box-shadow:0 30px 90px #0009}
+.hero{position:relative;text-align:center;padding:34px 24px 30px;overflow:hidden;background:linear-gradient(145deg,rgba(45,28,54,.75),rgba(15,14,18,.96) 62%);border-bottom:1px solid var(--line)}
+.hero:before,.hero:after{content:"";position:absolute;width:250px;height:250px;border:1px solid rgba(201,164,94,.1);border-radius:50%;top:-155px;right:-85px;box-shadow:0 0 0 25px rgba(201,164,94,.025),0 0 0 55px rgba(201,164,94,.02)}
+.hero:after{top:auto;right:auto;bottom:-205px;left:-110px}
+.logo{position:relative;width:min(100%,560px);height:auto;max-height:290px;object-fit:contain;filter:drop-shadow(0 12px 25px #0009)}
+.brandline{font-size:12px;letter-spacing:3px;color:var(--gold2);font-family:Montserrat,sans-serif;direction:ltr;margin-top:6px}
+.tagline{font-size:clamp(19px,4.5vw,27px);font-weight:700;margin:16px 0 5px}.tagline span{color:var(--gold2)}
+.subline{font-size:12px;color:var(--muted);margin:0}
+.location-pill{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line);background:#17141b;border-radius:999px;padding:7px 13px;margin-top:19px;font-size:12px;color:#e9dfce}
+main{padding:26px}
+.quick{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:-2px;margin-bottom:27px}
+.quick a{display:flex;align-items:center;justify-content:center;gap:8px;padding:14px 8px;border-radius:15px;border:1px solid var(--line);background:linear-gradient(140deg,#29212a,#17151a);font-size:13px;font-weight:700;transition:.2s}
+.quick a:first-child{background:linear-gradient(110deg,#b88b45,#eed294);color:#19130b;border:0}
+.quick a:active{transform:scale(.98)}
+.section-head{display:flex;align-items:center;gap:12px;margin:27px 0 15px}.section-head:after{content:"";height:1px;background:linear-gradient(90deg,transparent,var(--line));flex:1}
+.section-head h2{font-size:18px;margin:0;color:var(--gold2)}
+.intro{font-size:14px;color:#d5cec3;margin:0 0 18px}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
+.service{min-height:118px;border:1px solid #3b3038;border-radius:17px;padding:16px;background:linear-gradient(145deg,rgba(37,31,40,.92),rgba(19,18,23,.96));position:relative;overflow:hidden}
+.service:after{content:"";position:absolute;width:70px;height:70px;border:1px solid rgba(201,164,94,.12);border-radius:50%;left:-25px;bottom:-35px}
+.service .ico{font-size:22px;color:var(--gold2);display:block;margin-bottom:6px}
+.service b{font-size:14px;display:block}.service small{font-size:11px;color:var(--muted)}
+.info-grid{display:grid;gap:10px}.info{display:flex;align-items:flex-start;gap:13px;padding:14px;border:1px solid #343039;border-radius:15px;background:#151419}
+.info .symbol{width:38px;height:38px;flex:0 0 38px;border-radius:12px;display:grid;place-items:center;background:#2b2230;color:var(--gold2);font-size:18px}
+.info b{display:block;color:var(--gold2);font-size:12px;margin-bottom:2px}.info span,.info a{font-size:13px;color:#f2eee7;overflow-wrap:anywhere}
+.social{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:19px;padding:16px;border-radius:17px;background:linear-gradient(110deg,#241b2c,#17151b);border:1px solid rgba(201,164,94,.28)}
+.social .handle{direction:ltr;font-family:Montserrat,sans-serif;color:var(--gold2);font-weight:600;font-size:14px}
+.social .hint{font-size:11px;color:var(--muted)}
+.social a{border-radius:11px;background:var(--gold);color:#17120a;padding:9px 13px;font-size:12px;font-weight:800;white-space:nowrap}
+.bottom-actions{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:20px}
+.btn{display:flex;justify-content:center;align-items:center;gap:8px;padding:13px 10px;border:1px solid var(--line);border-radius:13px;background:#1d1a20;font-size:13px;font-weight:700;cursor:pointer;color:var(--white);font-family:inherit}
+.btn.gold{background:linear-gradient(110deg,#b88b45,#efd394);color:#17120a;border:0}
+.footer{text-align:center;padding:22px 15px 25px;color:#958d82;font-size:10px;letter-spacing:.3px}
+.footer strong{color:var(--gold2);font-weight:600}
+
+.payment-card{position:relative;overflow:hidden;border:1px solid rgba(201,164,94,.48);border-radius:20px;padding:19px;background:radial-gradient(circle at 100% 0%,rgba(201,164,94,.18),transparent 43%),linear-gradient(135deg,#29222a,#151319 72%);box-shadow:0 14px 35px #0005}
+.payment-card:after{content:"";position:absolute;width:170px;height:170px;border:1px solid rgba(240,214,155,.12);border-radius:50%;left:-78px;bottom:-112px;box-shadow:0 0 0 18px rgba(240,214,155,.025),0 0 0 38px rgba(240,214,155,.02);pointer-events:none}
+.payment-top{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:17px}
+.payment-bank{display:flex;align-items:center;gap:9px;color:var(--gold2);font-weight:700;font-size:13px}
+.payment-chip{font-size:10px;color:#17120a;background:linear-gradient(110deg,#b88b45,#efd394);border-radius:999px;padding:5px 9px;font-weight:800}
+.payment-label{font-size:11px;color:var(--muted);margin-bottom:8px}
+.card-number{direction:ltr;text-align:center;letter-spacing:1.5px;font-family:Montserrat,sans-serif;font-weight:700;font-size:clamp(18px,4vw,23px);color:#fff4dc;background:#0c0b0f99;border:1px solid rgba(201,164,94,.2);border-radius:13px;padding:14px 8px;white-space:nowrap}
+.card-owner{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:14px}
+.card-owner b{font-size:13px;color:var(--white)}
+.card-owner small{display:block;color:var(--muted);font-size:10px;margin-bottom:2px}
+.copy-card{position:relative;z-index:1;margin-top:16px;width:100%;border:0;border-radius:12px;padding:12px;background:linear-gradient(110deg,#b88b45,#efd394);color:#17120a;font:800 13px "Vazirmatn",sans-serif;cursor:pointer}
+.copy-card:active{transform:scale(.99)}
+.payment-note{font-size:10px;color:#b9b1a5;margin:10px 2px 0;line-height:1.9}
+
+@media(max-width:520px){.shell{width:min(100% - 18px,850px);margin:10px auto 30px}.card{border-radius:23px}.hero{padding:25px 14px 23px}.logo{max-height:230px}main{padding:18px}.quick{gap:7px}.quick a{font-size:11px;flex-direction:column;padding:11px 4px}.services{gap:8px}.service{padding:13px;min-height:112px}.service b{font-size:12px}.social{align-items:flex-start;flex-direction:column}.social a{width:100%;text-align:center}.bottom-actions{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:no-preference){.hero .logo{animation:rise .8s ease both}@keyframes rise{from{opacity:0;transform:translateY(12px) scale(.985)}to{opacity:1;transform:none}}}
 </style>
 </head>
 <body>
-<div class="wrap"><article class="card">
+<div class="shell">
+<div class="topline"><span>کارت ویزیت هوشمند</span><b>GOLBAHAR · IRAN</b></div>
+<article class="card">
 <header class="hero">
-<img class="logo" src="saman-studio-profile.png" alt="نشان استودیو سامان">
-<h1>استودیو سامان</h1><div class="latin">SAMAN STUDIO</div>
-<div class="tag">PHOTOGRAPHY · VIDEOGRAPHY · ADVERTISING</div>
-<p class="slogan">لحظه‌ها ماندگار می‌شوند...</p>
+<img class="logo" src="saman-studio-logo.png" alt="لوگوی استودیو سامان">
+<div class="brandline">SAMAN STUDIO</div>
+<h1 class="tagline">لحظه‌ها را <span>ماندگار</span> ثبت کنید</h1>
+<p class="subline">عکاسی، فیلم‌برداری و خدمات تبلیغاتی</p>
+<div class="location-pill">⌖ گلبهار، تجاری آگرین</div>
 </header>
 <main>
-<h2 class="section-title">خدمات استودیو</h2>
+<nav class="quick" aria-label="دسترسی سریع">
+<a href="tel:09338657143">☎ تماس مستقیم</a>
+<a href="https://instagram.com/samann_studio" target="_blank" rel="noopener">◎ اینستاگرام</a>
+<a href="https://nshn.ir/6d_bf_GRIJsbKm" target="_blank" rel="noopener">⌖ مسیریابی</a>
+</nav>
+
+<div class="section-head"><h2>خدمات استودیو</h2></div>
+<p class="intro">از ثبت لحظه‌های مهم تا آماده‌سازی تصویر و تبلیغات کسب‌وکار شما؛ خدمات استودیو سامان در یک مجموعه.</p>
 <div class="services">
-<div class="service">چاپ عکس موبایل</div>
-<div class="service">فیلم‌برداری و تدوین مجالس</div>
-<div class="service">ساخت تیزرهای تبلیغاتی</div>
-<div class="service">فروش انواع قاب و شاسی در ابعاد مختلف</div>
-<div class="service">طراحی تبلیغات محیطی</div>
+<div class="service"><span class="ico">▣</span><b>چاپ عکس موبایل</b><small>چاپ عکس‌های منتخب شما</small></div>
+<div class="service"><span class="ico">◉</span><b>فیلم‌برداری و تدوین مجالس</b><small>ثبت و تدوین خاطره‌های مهم</small></div>
+<div class="service"><span class="ico">▶</span><b>ساخت تیزرهای تبلیغاتی</b><small>معرفی تصویری کسب‌وکارها</small></div>
+<div class="service"><span class="ico">▤</span><b>قاب و شاسی</b><small>انواع قاب و شاسی در ابعاد مختلف</small></div>
+<div class="service"><span class="ico">✧</span><b>طراحی تبلیغات محیطی</b><small>طراحی اقلام تبلیغاتی محیطی</small></div>
 </div>
-<h2 class="section-title">راه‌های ارتباطی</h2>
-<div class="actions">
-<a class="btn primary" href="tel:09338657143">تماس مستقیم</a>
-<a class="btn" href="https://instagram.com/samann_studio" target="_blank" rel="noopener">صفحه اینستاگرام</a>
-<a class="btn" href="https://nshn.ir/6d_bf_GRIJsbKm" target="_blank" rel="noopener">مسیریابی با نشان</a>
-<button class="btn" id="saveContact">ذخیره شماره در مخاطبین</button>
+
+<div class="section-head"><h2>اطلاعات و ارتباط</h2></div>
+<div class="info-grid">
+<div class="info"><div class="symbol">☎</div><div><b>شماره تماس</b><a href="tel:09338657143" dir="ltr">09338657143</a></div></div>
+<div class="info"><div class="symbol">⌖</div><div><b>نشانی استودیو</b><span>گلبهار، میدان عمران، تجاری آگرین، طبقه +۱</span></div></div>
+<div class="info"><div class="symbol">◎</div><div><b>اینستاگرام</b><a href="https://instagram.com/samann_studio" target="_blank" rel="noopener" dir="ltr">@samann_studio</a></div></div>
 </div>
-<div class="details">
-<div class="detail"><div>☎</div><div><b>شماره تماس</b><a href="tel:09338657143" dir="ltr">09338657143</a></div></div>
-<div class="detail"><div>⌖</div><div><b>نشانی</b><span>گلبهار، میدان عمران، تجاری آگرین، طبقه +۱</span></div></div>
-<div class="detail"><div>◎</div><div><b>اینستاگرام</b><a href="https://instagram.com/samann_studio" target="_blank" rel="noopener" dir="ltr">@samann_studio</a></div></div>
+
+
+<div class="section-head"><h2>پرداخت و واریز وجه</h2></div>
+<section class="payment-card" aria-label="اطلاعات کارت بانکی استودیو سامان">
+  <div class="payment-top">
+    <div class="payment-bank"><span aria-hidden="true">▰</span> بانک تجارت</div>
+    <span class="payment-chip">SAMAN STUDIO</span>
+  </div>
+  <div class="payment-label">شماره کارت جهت واریز</div>
+  <div class="card-number" id="bankCardNumber" dir="ltr">5859&nbsp;8310&nbsp;9827&nbsp;6396</div>
+  <div class="card-owner">
+    <div><small>به نام</small><b>سامان امیر کلالی</b></div>
+    <div style="text-align:left"><small>نوع اطلاعات</small><b>کارت بانکی</b></div>
+  </div>
+  <button class="copy-card" id="copyBankCard" type="button">کپی شماره کارت</button>
+</section>
+<p class="payment-note">لطفاً پیش از واریز، مبلغ و مشخصات سفارش را با استودیو هماهنگ کنید.</p>
+
+<div class="social">
+<div><div class="hint">ما را در اینستاگرام دنبال کنید</div><div class="handle">@samann_studio</div></div>
+<a href="https://instagram.com/samann_studio" target="_blank" rel="noopener">مشاهده صفحه</a>
+</div>
+<div class="bottom-actions">
+<button class="btn gold" id="saveContact">＋ ذخیره در مخاطبین</button>
+<button class="btn" id="shareCard">↗ اشتراک‌گذاری کارت</button>
 </div>
 </main>
-<div class="footer">استودیو سامان | SAMAN STUDIO</div>
-</article></div>
+<footer class="footer"><strong>استودیو سامان | SAMAN STUDIO</strong><br>یک قاب، هزار خاطره</footer>
+</article>
+</div>
 <script>
+const contactData=['BEGIN:VCARD','VERSION:3.0','FN:استودیو سامان','ORG:SAMAN STUDIO','TEL;TYPE=CELL:09338657143','ADR;TYPE=WORK:;;تجاری آگرین، میدان عمران;گلبهار;;;ایران','URL:https://instagram.com/samann_studio','END:VCARD'].join('\r\n');
 document.getElementById('saveContact').addEventListener('click',()=>{
- const vcard=['BEGIN:VCARD','VERSION:3.0','FN:استودیو سامان','ORG:SAMAN STUDIO','TEL;TYPE=CELL:09338657143','ADR;TYPE=WORK:;;تجاری آگرین، میدان عمران;گلبهار;;;ایران','URL:https://instagram.com/samann_studio','END:VCARD'].join('\r\n');
- const blob=new Blob([vcard],{type:'text/vcard;charset=utf-8'});
- const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='saman-studio.vcf';a.click();URL.revokeObjectURL(url);
+ const blob=new Blob([contactData],{type:'text/vcard;charset=utf-8'});
+ const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='Saman-Studio.vcf';document.body.appendChild(a);a.click();a.remove();URL.revokeObjectURL(url);
+});
+
+document.getElementById('copyBankCard').addEventListener('click',async()=>{
+ const number='5859831098276396';
+ const button=document.getElementById('copyBankCard');
+ try{
+   if(navigator.clipboard && window.isSecureContext){await navigator.clipboard.writeText(number);}
+   else{
+     const field=document.createElement('textarea');field.value=number;field.style.position='fixed';field.style.opacity='0';document.body.appendChild(field);field.select();document.execCommand('copy');field.remove();
+   }
+   button.textContent='شماره کارت کپی شد ✓';
+   setTimeout(()=>button.textContent='کپی شماره کارت',2200);
+ }catch(e){button.textContent='کپی انجام نشد؛ شماره را دستی بردارید';}
+});
+
+document.getElementById('shareCard').addEventListener('click',async()=>{
+ const data={title:'استودیو سامان | SAMAN STUDIO',text:'کارت ویزیت آنلاین استودیو سامان',url:location.href};
+ if(navigator.share){try{await navigator.share(data)}catch(e){}}
+ else if(navigator.clipboard){await navigator.clipboard.writeText(location.href);alert('لینک کارت کپی شد.')}
+ else{prompt('لینک کارت را کپی کنید:',location.href)}
 });
 </script>
 </body></html>
